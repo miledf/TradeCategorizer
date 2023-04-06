@@ -1,0 +1,1 @@
+# TradeCategorizer.Domain
