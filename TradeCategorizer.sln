@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCategorizer.Domain", "TradeCategorizer.Domain\TradeCategorizer.Domain.csproj", "{0C600DAD-31E8-4B09-869D-ECFD20FE0FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCategorizer.Application", "TradeCategorizer.Application\TradeCategorizer.Application.csproj", "{97C24DE6-BF1B-473C-8F57-742D0F6EF25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCategorizer.Console", "TradeCategorizer.Console\TradeCategorizer.Console.csproj", "{FB70737E-4E3C-488F-8F5B-76FC23D7A52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeCategorizer.Tests", "TradeCategorizer.Tests\TradeCategorizer.Tests.csproj", "{24278B89-A3CB-412E-8B7D-EF342279E941}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TradeCategorizer.InfraStructure", "TradeCategorizer.InfraStructure", "{FFB9E399-7F36-4C5F-BDF2-F837D40DF007}"
+	ProjectSection(SolutionItems) = preProject
+		exec.sql = exec.sql
+		seed.sql = seed.sql
+		StoreProcedure.sql = StoreProcedure.sql
+		Tables.sql = Tables.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question1", "Question1", "{311F59B7-1980-44A3-A48C-50C1296F7A22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question2", "Question2", "{2BCC6539-B581-42AA-B272-D7E56068AD8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C600DAD-31E8-4B09-869D-ECFD20FE0FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C600DAD-31E8-4B09-869D-ECFD20FE0FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C600DAD-31E8-4B09-869D-ECFD20FE0FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C600DAD-31E8-4B09-869D-ECFD20FE0FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C24DE6-BF1B-473C-8F57-742D0F6EF25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C24DE6-BF1B-473C-8F57-742D0F6EF25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C24DE6-BF1B-473C-8F57-742D0F6EF25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C24DE6-BF1B-473C-8F57-742D0F6EF25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB70737E-4E3C-488F-8F5B-76FC23D7A52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB70737E-4E3C-488F-8F5B-76FC23D7A52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB70737E-4E3C-488F-8F5B-76FC23D7A52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB70737E-4E3C-488F-8F5B-76FC23D7A52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24278B89-A3CB-412E-8B7D-EF342279E941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24278B89-A3CB-412E-8B7D-EF342279E941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24278B89-A3CB-412E-8B7D-EF342279E941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24278B89-A3CB-412E-8B7D-EF342279E941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C600DAD-31E8-4B09-869D-ECFD20FE0FBE} = {311F59B7-1980-44A3-A48C-50C1296F7A22}
+		{97C24DE6-BF1B-473C-8F57-742D0F6EF25A} = {311F59B7-1980-44A3-A48C-50C1296F7A22}
+		{FB70737E-4E3C-488F-8F5B-76FC23D7A52D} = {311F59B7-1980-44A3-A48C-50C1296F7A22}
+		{24278B89-A3CB-412E-8B7D-EF342279E941} = {311F59B7-1980-44A3-A48C-50C1296F7A22}
+		{FFB9E399-7F36-4C5F-BDF2-F837D40DF007} = {2BCC6539-B581-42AA-B272-D7E56068AD8D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9112D35C-FB6D-44B9-8AF8-6D509B6C52EC}
+	EndGlobalSection
+EndGlobal
